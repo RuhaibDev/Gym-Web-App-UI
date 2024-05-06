@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Oswald&display=swap"
+        rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="./CSS/CommonCss.css">
+    <link rel="stylesheet" href="./CSS/login.css">
+    <link rel="stylesheet" href="./CSS/Registrazione.css">
+    <title>Registrazione</title>
+</head>
+
+<body>
+    <div class="registeration justify-content-center d-flex">
+        <div class="registerationInner p-t-50">
+            <div class="registerationHeader d-flex w-100 m-b-20">
+                <img src="./img/arrow-chevron-left-back.svg" alt="">
+                <img class="registerationLogo" src="./img/imgpsh_fullsize_anim 1.png" alt="logo">
+            </div>
+            <div class="registerationInputDiv d-flex flex-column justify-content-center align-items-center gap-10 ">
+                <h5 class="whiteColor textAlignCenter m-b-10 f-w-700">Registrazione</h5>
+                <input class="darkGreyColor w-100 whiteBackground b-r-15 inputPad" type="text"
+                    placeholder="Codice promozionale o referral">
+                <select class="darkGreyColor w-100 whiteBackground b-r-15 inputPad selectChange" name="" id="">
+                    <option value="">Che utente sei?</option>
+                </select>
+                <input class="darkGreyColor w-100 whiteBackground b-r-15 inputPad" type="text" placeholder="Nome*">
+                <input class="darkGreyColor w-100 whiteBackground b-r-15 inputPad" type="text" placeholder="Cognome*">
+                <input class="darkGreyColor w-100 whiteBackground b-r-15 inputPad" type="date"
+                    placeholder="Data di nascita*">
+                <input class="darkGreyColor w-100 whiteBackground b-r-15 inputPad" type="mail" placeholder="Mail*">
+                <!-- THIS TAGS AND CSS USED FROM LOGIN FORM DUE TO THE SAME PROPERTIES THATS THE CLASSES ARE NAMED WITH LOGIN -->
+                
+                <div class="login-middle w-100 d-flex align-items-center justify-content-between gap-15">
+                    <div
+                        class="dropDownDiv w-40 padInput whiteBackground b-r-15 d-flex flex-column justify-content-center">
+                        <label class="midLilla" for="">Prefisso</label>
+                        <select class="darkGreyColor">
+                            <option value="" selected>Ita (+39)</option>
+                            <option value="" selected>Ita (+39)</option>
+                        </select>
+                    </div>
+                    <div class="input-div w-55 b-r-15 d-flex flex-column whiteBackground padAdjust">
+                        <input class="darkGreyColor" type="text" placeholder="3481234567">
+                    </div>
+                </div>
+                <p class="f-s-label whiteColor lineHeightNormal">Fast login tramite con il tuo numero di telefono</p>
+                <div class="registerationCheckboxDiv d-flex flex-column gap-15 m-b-100">
+                    <label class="whiteColor boldText d-flex align-items-center gap-10">
+                        <input type="checkbox" name="fruit" value="apple">
+                        *Accetto l’informativa sulla <span class="textUnderline">Privacy</span>
+                    </label>
+                    <label class="whiteColor boldText d-flex align-items-center gap-10">
+                        <input type="checkbox" name="fruit" value="apple">
+                        Voglio ricevere lenewsletter di Bulb
+                    </label>
+                    <label class="whiteColor boldText d-flex align-items-center gap-10">
+                        <input type="checkbox" name="fruit" value="apple">
+                        Accetto la profilazione
+                    </label>
+                </div>
+                <div class="registerationBtnDiv registerationBtnDivResponsive w-60 d-flex justify-content-center b-r-15 padBtn m-b-100 darkVioletBackground">
+                    <button class="midLillaColor">Registrati</button>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</body>
+
+</html>

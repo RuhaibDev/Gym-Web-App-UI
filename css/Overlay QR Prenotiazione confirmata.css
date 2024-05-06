@@ -1,0 +1,81 @@
+:root{
+    --hero-bg: linear-gradient(153.63deg, #FFFFFF 24.08%, #E2E8EE 99.14%);
+    --dark-violet: #41227C;
+    --dark-grey: #62557F;
+    --color-lilla: #B4A9CE;
+    --color-white: white;
+    --magenta-bulb: #E21B57;
+    --white-gradient: linear-gradient(153.63deg, #FFFFFF 24.08%, #E2E8EE 99.14%);
+    --ligh-lilla: #F2EFF9;
+    --mid-lilla: #B4A9CE;
+    --lilla: #8652F9;
+}
+
+.magenta-bulb{
+    color: var(--magenta-bulb);
+}
+.dark-violent{
+    color: var(--dark-violet);
+}
+
+.hero{
+    background: var(--hero-bg);
+    min-height: 100vh;
+    width: 100%;
+    max-width: 480px;
+    padding: 2rem 10%;
+}
+
+.line{
+    border: 3px solid var(--dark-violet);
+    width: 6rem;
+    border-radius: 25px;
+}
+
+.barcodeImage{
+    width: 100%;
+}
+
+.barcodeText{
+    text-align: center;
+    color: var(--dark-grey);
+}
+
+.container2{
+    border: 1px solid black;
+    /* height: 40vh; */
+    padding: 1rem;
+    /* background: var(--white-gradient); */
+    background: linear-gradient(153.63deg, #FFFFFF 24.08%, #E2E8EE 99.14%);
+    border: 3px solid #F2EFF9;
+    border-radius: 7px;
+}
+
+.miniCon1{
+    background-color: var(--color-white);
+    border: 2px solid var(--ligh-lilla);
+    padding: 8px 10px;
+    border-radius: 10px;
+}
+
+.grid3Coloumns{
+    display: flex;
+    justify-content: space-between;
+}
+
+.borderRight{
+    border: 1px solid var(--mid-lilla);
+    height: 1rem;
+}
+
+.Btn{
+    background-color: var(--lilla);
+    padding: 20px 50px;
+    border-radius: 15px;
+}
+
+@media (max-width: 400px) {
+    .hero{
+        padding: 2rem 5%;
+    }
+}

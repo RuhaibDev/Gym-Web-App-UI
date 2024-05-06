@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Oswald&display=swap"
+        rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="./CSS/CommonCss.css">
+    <link rel="stylesheet" href="./CSS/Certificato.css">
+    <title>Certificato</title>
+</head>
+
+<body>
+    <div class="certificato">
+        <div class="certificatoInner d-flex flex-column align-items-center p-t-30 gap-40">
+            <div class="certificatoiHeader w-100 d-flex justify-content-between">
+                <div class="certificatoRight b-r-10 whiteBackground d-flex align-items-center gap-10 ">
+                    <img src="./img/red-trash.svg" alt="">
+                    <p class="magentaBulbColor boldText f-s-label-l">Elimina</p>
+
+                </div>
+                <div class="certificatoHeaderLeft d-flex align-items-center justify-content-center gap-6">
+                    <img src="./img/red-tick.svg" alt="">
+
+                    <p class="darkVioletColor boldText f-s-label-l">Salva</p>
+                </div>
+            </div>
+            <div class="certificatoContent w-100 d-flex align-items-center justify-content-center flex-column gap-20">
+                <div class="certificatoInputDiv whiteBackground b-r-15 inputPad d-flex flex-column align-items-start w-75">
+                    <label class="boldText midLillaColor" for="">Nome certificato*</label>
+                    <input class="darkGreyColor boldText" type="text" placeholder="Certificato 1">
+                </div>
+                <img class="responsiveImg" src="./img/image 4.svg" alt="Certificato">
+                <p class="darkVioletColor f-s-label boldText lineHeightNone">Formati validi: PDF,PNG,JPG (max 1.5mb)</p>
+                <div class="certificatoBtnDiv lillaBackground padBtn b-r-15 w-60 d-flex justify-content-center align-items-center">
+                    <button class="whiteColor f-w-700">Cambia file</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

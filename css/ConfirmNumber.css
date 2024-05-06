@@ -1,0 +1,42 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+
+}
+
+.confirmNumber{
+    background: var(--dark-purple-gradient);
+    max-width: 480px;
+    min-height: 100vh;
+}
+
+.confirmNumberInner{
+    /* width: 400px; */
+    margin: 0 auto;
+
+}
+
+.confirmNumberInputDiv{
+    margin-bottom: 50px;
+}
+
+.confirmNumberInputField{
+    height: 90px;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.confirmNumberButtonDiv{
+    margin: 50px auto;
+}
+
+@media screen and (max-width: 350px) {
+    /* CSS rules */
+    .confirmNumberInputField{
+        height: 70px;
+        font-size: 2rem;
+        text-align: center;
+    }
+}

@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+
+}
+
+.registeration{
+    background: var(--dark-purple-gradient);
+    max-width: 480px;
+    min-height: 100vh;
+}
+
+.inputPad{
+  padding: 15px 20px 15px 20px;
+}
+
+.registerationInner{
+    padding: 0px 35px;
+    padding-top: 50px;
+    width: 100%;
+    margin: 0px auto;
+}
+
+.registerationLogo{
+    height: 35px;
+    width: 40px;
+    margin: 0px auto;
+
+}
+
+/* .selectChange{
+    background-position: calc(100% - 20px) center;
+} */
+
+.padAdjust{
+    padding: 18px 20px;
+}
+
+input[type="checkbox"] {
+    border: 2px solid var(--mid-lilla); /* Change border color and thickness here */
+    transform: scale(2);
+}
+
+input::placeholder {
+    color: var(--darkGreyColor); /* Change to whatever color you want */
+}
+
+@media screen and (max-width: 344px) {
+
+    /* CSS rules */
+    input{
+        font-size: 0.8rem;
+    }
+}
+@media screen and (max-width: 380px) {
+
+    /* CSS rules */
+    select{
+        font-size: 0.8rem;
+    }
+}
+
+@media screen and (max-width: 380px) {
+
+    /* CSS rules */
+    .f-s-label{
+        font-size: 0.75rem;
+    }
+    .registerationBtnDivResponsive{
+        width: 70%;
+    }
+}
+
+@media screen and (max-width: 326px) {
+
+    /* CSS rules */
+    .registerationInner{
+        padding: 0px 25px;
+        padding-top: 40px;
+        width: 100%;
+        margin: 0px auto;
+    }
+}
+

@@ -1,0 +1,49 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+.login {
+    background: var(--dark-purple-gradient);
+    max-width: 480px;
+    min-height: 100vh;
+}
+
+
+.padInput {
+    padding: 9px 20px 9px 20px;
+
+}
+
+/* .dropDownDiv{
+    width: 35%
+} */
+.login-inner {
+    /* width: 400px; */
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 50px 20px;
+}
+
+.darkGrey {
+    color: var(--dark-grey);
+}
+
+.midLilla {
+    color: var(--mid-lilla);
+}
+
+@media screen and (max-width: 350px) {
+
+    /* CSS rules */
+    .padInput {
+        padding: 9px 10px 9px 10px;
+    }
+
+    .responsiveImage {
+        max-width: 100%;
+        height: auto;
+    }
+}

@@ -1,0 +1,106 @@
+:root {
+    --hero-bg: linear-gradient(153.63deg, #FFFFFF 24.08%, #E2E8EE 99.14%);
+    --dark-violet: #41227C;
+    --dark-grey: #62557F;
+    --color-lilla: #B4A9CE;
+    --color-white: white;
+    --magenta-bulb: #E21B57;
+    --white-gradient: linear-gradient(153.63deg, #FFFFFF 24.08%, #E2E8EE 99.14%);
+    --ligh-lilla: #F2EFF9;
+    --mid-lilla: #B4A9CE;
+    --tab-bg: linear-gradient(153.63deg, #FFFFFF 24.08%, #E2E8EE 99.14%);
+}
+
+.hero {
+    background: var(--hero-bg);
+    min-height: 100vh;
+    width: 100%;
+    max-width: 480px;
+    padding: 2rem 0;
+}
+
+.pad-main {
+    padding: 0 10%;
+}
+
+.itemsCon {
+    flex-wrap: wrap;
+    gap: 7px;
+}
+
+.miniCon1 {
+    border: 1px solid #D0CCD8;
+    padding: 5px 8px;
+    background: #F2EFF9;
+    border-radius: 20px;
+}
+
+.tab1 {
+    background: var(--tab-bg);
+    padding: 1rem 0;
+    box-shadow: 0px 0px 4px 0px #1e374529;
+}
+
+.box {
+    background: linear-gradient(153.63deg, #FFFFFF 24.08%, #E2E8EE 99.14%);
+    border: 2px solid var(--ligh-lilla);
+    min-height: 20vh;
+    border-radius: 20px;
+    padding: 15px;
+}
+
+.boxImg {
+    width: 100%;
+    height: 8rem;
+    position: relative;
+    margin-bottom: 15px;
+}
+
+.boxInnerImg {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    object-fit: cover;
+    color: transparent;
+    border-radius: 5px;
+}
+
+.infoHub {
+    background: linear-gradient(180deg, #8652F9 0%, #2E099B 53.52%, #200D5A 100%),
+        radial-gradient(111.98% 48.59% at 0% 0%, rgba(155, 5, 149, 0.5) 0%, rgba(231, 0, 222, 0) 100%),
+        radial-gradient(99.24% 63.73% at 3.82% 102.23%, rgba(155, 5, 149, 0.2) 0%, rgba(231, 0, 222, 0) 100%);
+    position: absolute;
+    top: 15px;
+    right: 0px;
+    width: fit-content;
+    padding: 5px 8px;
+    border-radius: 5px 0 0 5px;
+}
+
+.boxButtons {
+    
+}
+
+.boxButtons button{
+    background: linear-gradient(180deg, #8652F9 0%, #2E099B 53.52%, #200D5A 100%),
+        radial-gradient(111.98% 48.59% at 0% 0%, rgba(155, 5, 149, 0.5) 0%, rgba(231, 0, 222, 0) 100%),
+        radial-gradient(99.24% 63.73% at 3.82% 102.23%, rgba(155, 5, 149, 0.2) 0%, rgba(231, 0, 222, 0) 100%) !important;
+    padding: 7px 0;
+    background: none;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.boxButtons button:disabled{
+    background: var(--ligh-lilla) !important
+}
+
+@media (max-width: 400px) {
+    .pad-main {
+        padding: 0 5%;
+    }
+}

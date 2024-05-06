@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+
+}
+
+.Interview1{
+    background: var(--dark-purple-gradient);
+    max-width: 480px;
+    min-height: 100vh;
+}
+.b-r-3{
+    border-radius: 3px;
+}
+
+.Interview1Inner{
+    /* width: 400px; */
+    width: 100%;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-bottom: 50px;
+}
+
+.carouselInner{
+    height: 6px;
+}
+
+@media screen and (max-width: 410px) {
+    /* CSS rules */
+    .responsiveWidth{
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 334px) {
+    /* CSS rules */
+    .Interview1Inner{
+        padding-left: 14px;
+        padding-right: 14px;
+    
+    }
+}

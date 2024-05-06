@@ -1,0 +1,27 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+.inform{
+    background: var(--white-gradient1);
+    max-width: 480px;
+    min-height: 100vh;
+}
+
+.informInner{
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-bottom: 50px;
+}
+
+@media screen and (max-width: 360px) {
+    .responsiveClass{
+        gap: 20px;
+    }
+    .responsiveWidth{
+        width: 90%;
+    }
+}

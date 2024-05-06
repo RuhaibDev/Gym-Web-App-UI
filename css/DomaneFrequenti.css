@@ -1,0 +1,40 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+
+}
+
+.domande{
+    background: var(--white-gradient1);
+    max-width: 480px;
+    min-height: 100vh;
+}
+
+.domandeInner{
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-bottom: 50px;
+}
+
+@media screen and (max-width: 360px) {
+    .domandeInner{
+        padding-right: 15px;
+        padding-left: 15px;
+        padding-bottom: 50px;
+    }
+    .profiloInvita{
+        padding: 20px 10px;
+    }
+    .f-s-label-l{
+        font-size: 0.85rem;
+    }
+}
+
+@media screen and (max-width: 315px) {
+    
+    .f-s-label-l{
+        font-size: 0.81rem;
+    }
+}

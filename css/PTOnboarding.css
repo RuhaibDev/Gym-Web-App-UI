@@ -1,0 +1,75 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+
+}
+
+.onboarding {
+    background: var(--white-gradient1);
+    max-width: 480px;
+    min-height: 100vh;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.onboardingInner {
+    width: 100%;
+    padding: 0px 20px;
+    padding-bottom: 20px;
+}
+
+.onboardingDropdownInput {
+    border: 2px solid var(--ligh-lilla);
+    padding: 10px 10px 10px 10px;
+}
+
+.onboardingCategoryName {
+    background: var(--ligh-lilla);
+    border: 1px solid rgba(208, 204, 216, 1);
+    padding: 5px 10px 5px 10px;
+}
+
+.onboardingCardUp {
+    position: relative;
+}
+
+.absoluteIcon {
+    position: absolute;
+    top: 15px;
+    left: 10px;
+}
+
+.absoluteIcon2 {
+    position: absolute;
+    top: 15px;
+    right: 10px;
+}
+
+.onboardingCardLow {
+    padding: 5px 0px 5px 10px;
+    gap: 0px;
+    border-radius: 0px 0px 10px 10px;
+}
+
+.onboarding1{
+    max-width: 480px;
+    background: var(--whiteColor);
+    padding: 30px 0px;
+}
+
+/* MEDIA QUERIES ACCORDING TO CONTENT  */
+
+@media screen and (max-width: 453px) {
+    /* CSS rules */
+    .responsive{
+        width: 100%;
+    }
+}
+
+@media (max-width: 390px) {
+    .onboardingCardDiv{
+        justify-content: center !important;
+    }
+}

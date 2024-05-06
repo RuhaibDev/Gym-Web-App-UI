@@ -1,0 +1,431 @@
+:root {
+    --dark-purple-gradient: linear-gradient(180deg, #8652F9 0%, #2E099B 53.52%, #200D5A 100%),
+        radial-gradient(111.98% 48.59% at 0% 0%, rgba(155, 5, 149, 0.5) 0%, rgba(231, 0, 222, 0) 100%)
+        /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */
+        ,
+        radial-gradient(99.24% 63.73% at 3.82% 102.23%, rgba(155, 5, 149, 0.2) 0%, rgba(231, 0, 222, 0) 100%)
+        /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */
+    ;
+    --white-gradient: rgba(255, 255, 255, 1);
+    --white-gradient1: linear-gradient(153.63deg, #FFFFFF 24.08%, #E2E8EE 99.14%);
+    --mid-lilla: rgba(180, 169, 206, 1);
+    --dark-grey: rgba(98, 85, 127, 1);
+    --dark-violet: rgba(65, 34, 124, 1);
+    --lilla: rgba(134, 82, 249, 1);
+    --white: rgba(255, 255, 255, 1);
+    --magenta-bulb: rgba(226, 27, 87, 1);
+    --ligh-lilla: rgba(242, 239, 249, 1);
+    --green:rgba(0, 191, 8, 1);
+
+}
+
+input,
+select {
+    border: none;
+    background: none;
+    font-size: 0.9rem;
+    font-weight: bold;
+}
+
+/* Remove the default focus outline */
+input:focus {
+    outline: none;
+}
+
+select:focus {
+    outline: none;
+}
+
+label {
+    font-size: 0.8rem;
+}
+
+
+button {
+    border: none;
+    font-size: 1.1rem;
+    font-weight: bold;
+    background: none;
+}
+
+p {
+    text-align: center;
+    line-height: 2rem;
+    margin-bottom: 0;
+    font-size: 1rem;
+}
+
+h4{
+    margin-bottom: 0;
+    font-size: 1.4rem;
+}
+
+h5 {
+    margin-bottom: 0;
+    font-size: 1.1rem;
+}
+
+.f-s-label {
+    font-size: 0.8rem;
+}
+
+.f-s-label-l {
+    font-size: 0.9rem;
+}
+
+.largeText{
+    font-size: 1.1rem;
+}
+
+.lineHeightNormal {
+    line-height: 1.5rem;
+}
+
+.lineHeightNone{
+    line-height: 1rem;
+}
+/* WHITE GRADIENT BACKGROUND  */
+.whiteBackground {
+    background: var(--white-gradient);
+}
+
+.lillaBackground {
+    background: var(--lilla);
+}
+
+.darkVioletBackground {
+    background: var(--dark-violet);
+}
+
+.magentaBulbBackground{
+    background: var(--magenta-bulb);
+}
+/* WHITE COLOR OF TEXT  */
+.whiteColor {
+    color: var(--white);
+}
+
+/* Lilla text color  */
+.lilla {
+    color: var(--lilla);
+}
+
+.midLillaColor {
+    color: var(--mid-lilla);
+}
+
+.magentaBulbColor {
+    color: var(--magenta-bulb);
+}
+
+.darkGreyColor {
+    color: var(--dark-grey);
+}
+
+.darkVioletColor {
+    color: var(--dark-violet);
+}
+
+.greenColor{
+    color: var(--green);
+}
+
+/* TEXT UNDERLINE  */
+.textUnderline {
+    text-decoration: underline;
+}
+
+/* TEXT ALIGN CENTER  */
+.textAlignCenter {
+    text-align: center;
+}
+
+.textAlignLeft{
+    text-align: left;
+}
+
+/* PADDING OF A BUTTON  */
+.padBtn {
+    padding: 20px 10px 20px 10px;
+}
+
+/* INPUT FIELD PADDING */
+.inputPad {
+    padding: 9px 20px 9px 20px;
+}
+
+/* FLEX CUSTOM PRROPERTY TO USE WITH BOOTSTRAP */
+.align-self-center {
+    align-self: center;
+}
+
+.align-self-flex-start {
+    align-self: flex-start;
+}
+
+.boldText {
+    font-weight: 600;
+}
+
+.f-w-700{
+    font-weight: 700;
+}
+
+.f-w-800{
+    font-weight: 800;
+}
+/* .smallSizeResponsive{
+    font-size: 0.9rem;
+} */
+/* BORDER RADIUS  */
+
+.b-r-3 {
+    border-radius: 3px;
+}
+
+.b-r-10 {
+    border-radius: 10px;
+}
+
+.b-r-15 {
+    border-radius: 15px;
+}
+
+.b-r-20 {
+    border-radius: 20px;
+}
+
+.b-r-40{
+    border-radius: 40px;
+}
+
+/* FLEX GAP PROPERTY */
+.gap-5 {
+    gap: 5px;
+}
+
+.gap-6 {
+    gap: 6px;
+}
+
+.gap-10 {
+    gap: 10px;
+}
+
+.gap-15 {
+    gap: 15px;
+}
+
+.gap-20 {
+    gap: 20px;
+}
+
+.gap-25 {
+    gap: 25px;
+}
+
+.gap-30 {
+    gap: 30px;
+}
+
+.gap-35 {
+    gap: 35px;
+}
+
+.gap-40 {
+    gap: 40px;
+}
+
+.gap-45 {
+    gap: 45px;
+}
+
+.gap-50 {
+    gap: 50px;
+}
+
+.gap-55 {
+    gap: 55px;
+}
+
+.gap-60 {
+    gap: 60px;
+}
+
+.gap-65 {
+    gap: 65px;
+}
+
+.gap-70 {
+    gap: 70px;
+}
+
+.gap-75 {
+    gap: 75px;
+}
+
+.gap-80 {
+    gap: 80px;
+}
+
+
+/* MANUALLY ADJUSTING THE WIDTH  */
+.w-5 {
+    width: 5%;
+}
+
+.w-10 {
+    width: 10%;
+}
+
+.w-15 {
+    width: 15%;
+}
+
+.w-20 {
+    width: 20%;
+}
+
+.w-22 {
+    width: 22%;
+}
+
+.w-23 {
+    width: 23%;
+}
+
+.w-25 {
+    width: 25%;
+}
+
+.w-30 {
+    width: 30%;
+}
+
+.w-35 {
+    width: 35%;
+}
+
+.w-40 {
+    width: 40%;
+}
+
+.w-45 {
+    width: 45%;
+}
+
+.w-50 {
+    width: 50%;
+}
+
+.w-55 {
+    width: 55%;
+}
+
+.w-60 {
+    width: 60%;
+}
+
+.w-65 {
+    width: 65%;
+}
+
+.w-70 {
+    width: 70%;
+}
+
+.w-75 {
+    width: 75%;
+}
+
+.w-80 {
+    width: 80%;
+}
+
+.w-85 {
+    width: 85%;
+}
+
+.w-90 {
+    width: 90%;
+}
+
+.w-95 {
+    width: 95%;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+/* MANUALLY ADJUSTING THE MARGIN BOTTON  */
+
+.m-b-10 {
+    margin-bottom: 10px;
+}
+
+.m-b-20 {
+    margin-bottom: 20px;
+}
+
+.m-b-30 {
+    margin-bottom: 30px;
+}
+
+.m-b-100 {
+    margin-bottom: 100px;
+}
+
+.p-6{
+    padding: 6px;
+}
+
+.p-10{
+    padding: 10px;
+}
+
+/* MANUALLY ADJUSTING THE TOP PADDING  */
+
+.p-t-6 {
+    padding-top: 6px;
+}
+
+.p-t-10 {
+    padding-top: 10px;
+}
+
+.p-t-15 {
+    padding-top: 15px;
+}
+
+.p-t-20 {
+    padding-top: 20px;
+}
+
+.p-t-25 {
+    padding-top: 25px;
+}
+
+.p-t-30 {
+    padding-top: 30px;
+}
+
+.p-t-35 {
+    padding-top: 35px;
+}
+
+.p-t-40 {
+    padding-top: 40px;
+}
+
+.p-t-45 {
+    padding-top: 45px;
+}
+
+.p-t-50 {
+    padding-top: 50px;
+}
+
+.p-t-100 {
+    padding-top: 100px;
+}

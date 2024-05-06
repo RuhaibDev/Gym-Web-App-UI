@@ -1,0 +1,82 @@
+:root {
+    --dark-violet: #41227C;
+    --dark-grey: #62557F;
+    --color-lilla: #B4A9CE;
+    --color-white: white;
+    --magenta-bulb: #E21B57;
+    --white-gradient: linear-gradient(153.63deg, #FFFFFF 24.08%, #E2E8EE 99.14%);
+    --ligh-lilla: #F2EFF9;
+    --mid-lilla: #B4A9CE;
+    --tab-bg: linear-gradient(153.63deg, #FFFFFF 24.08%, #E2E8EE 99.14%);
+    --lilla: rgba(134, 82, 249, 1);
+}
+
+.hero {
+    background: var(--color-white);
+    min-height: 100vh;
+    width: 100%;
+    max-width: 480px;
+    position: relative;
+}
+
+.map {
+    width: 100%;
+    height: 100%;
+    outline: none;
+    border: 1px solid transparent !important;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    object-fit: cover;
+}
+
+.padd {
+    padding: 2rem 10%;
+}
+
+.select {
+    background: white;
+    padding: 9px 20px;
+    border-radius: 17px;
+    color: black;
+    font-weight: 500;
+    box-shadow: 1px 0px 4px 0px #1E37454D;
+
+}
+
+.slider {
+    border: 2px solid;
+    border-image-source: linear-gradient(120.69deg, #FB23FF -14.42%, #4317C5 45.73%, #200D5A 98.72%);
+    border-radius: 20px;
+    width: 20rem;
+    background-color: white;
+    box-shadow: 1px 0px 4px 0px #1E37454D;
+    padding: 15px;
+}
+
+.navBottom {
+    background: linear-gradient(153.63deg, #FFFFFF 24.08%, #E2E8EE 99.14%);
+    padding: 10px 20px;
+    box-shadow: 1px 0px 4px 0px #1E37454D;
+    border-radius: 20px;
+    margin: 1rem 0;
+}
+
+.carousel {
+    min-height: 16rem;
+    width: 20.1rem;
+}
+
+.mySwiperMain {
+    height: 100% !important;
+    width: 100% !important;
+    position: absolute !important;
+    top: 0 !important;
+    left: 0 !important;
+    right: 0 !important;
+    bottom: 0 !important;
+    object-fit: contain !important;
+    z-index: 1 !important;
+}

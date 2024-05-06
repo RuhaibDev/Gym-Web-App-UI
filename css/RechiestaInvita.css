@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+
+}
+
+.invite {
+    background: var(--white-gradient1);
+    max-width: 480px;
+    min-height: 100vh;
+}
+
+.inviteInner {
+    padding: 0px 90px;
+    padding-top: 30px;
+}
+
+.inviteEmpUpperDiv {
+    height: 6px;
+}
+
+/* Styles for screens smaller than 465px */
+@media screen and (min-width: 380px) and (max-width: 465px) {
+
+    /* CSS rules */
+    .inviteInner {
+        padding: 0px 50px;
+        padding-top: 30px;
+
+    }
+}
+
+@media screen and (max-width: 380px) {
+
+    /* CSS rules */
+    .inviteInner {
+        padding: 0px 25px;
+        padding-top: 30px;
+
+    }
+}
+
+@media screen and (max-width: 328px) {
+
+    /* CSS rules */
+    .inviteInner {
+        padding: 0px 15px;
+        padding-top: 30px;
+
+    }
+}
+
+@media screen and (max-width: 310px) {
+
+    /* CSS rules */
+    .inviteInner {
+        padding: 0px 10px;
+        padding-top: 30px;
+
+    }
+}

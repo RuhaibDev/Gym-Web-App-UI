@@ -1,0 +1,55 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+
+}
+
+.profilo{
+    background: var(--white-gradient1);
+    max-width: 480px;
+    min-height: 100vh;
+}
+
+.profiloInner{
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+}
+
+.profiloInvita{
+    background: var(--white-gradient1);
+    border: 3px solid var(--ligh-lilla);
+    padding: 20px 20px;
+}
+
+.profiloInvitaTrainerGalleryBtn{
+    border: 1px solid var(--mid-lilla);
+    padding: 7px 9px 7px 9px;
+}
+
+/* MEDIA QUERIES  */
+@media screen and (max-width: 350px) {
+    /* CSS rules */
+    p{
+        font-size: 0.8rem;
+    }
+
+    button{
+        font-size: 0.9rem;
+        padding: 4px 6px 4px 6px;
+    }
+    h5{
+        font-size: 0.95rem;
+    }
+    .lineHeightNormal{
+        line-height: 1rem;
+    }
+    h4{
+        font-size: 1.15rem;
+    }
+    .largeText{
+        font-size: 0.9rem;
+    }
+}

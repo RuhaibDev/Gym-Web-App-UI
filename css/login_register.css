@@ -1,0 +1,60 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+.loginRegister {
+    background: var(--dark-purple-gradient);
+
+    max-width: 480px;
+    min-height: 100vh;
+}
+
+.loginRegisterInner{
+    width: 100%;
+    padding: 0px 100px;
+}
+
+
+.purpleBackground{
+    background: rgba(134, 82, 249, 1);
+}
+
+
+.dropDownPad{
+    padding: 10px 20px 10px 20px;
+}
+
+.darkViolet{
+    color: var(--dark-violet);
+}
+
+
+@media screen and (max-width: 410px) {
+    /* CSS rules */
+    .loginRegisterInner{
+        padding: 0px 70px;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    /* CSS rules */
+    .img1{
+        height: 180px;
+        width: 200px;
+    }
+}
+
+
+@media screen and (min-width: 480px) {
+    /* CSS rules */
+    .loginRegister{
+        padding-top: 100px;
+    }
+}
+
+
+
+

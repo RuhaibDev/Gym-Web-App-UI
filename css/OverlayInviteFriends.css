@@ -1,0 +1,73 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+
+}
+
+.overlay{
+    background: var(--white-gradient1);
+    max-width: 480px;
+    min-height: 100vh;
+}
+
+.overlayInner{
+    padding: 30px 20px 50px 20px;
+}
+
+.overlayEmpty{
+    height: 6px;
+
+}
+
+.overlayPointNumDiv{
+    background: var(--dark-purple-gradient);
+    border: 2px solid var(--ligh-lilli);
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+}
+
+.padPara{
+    padding: 5px 0px;
+}
+
+.overlayReferrel{
+    background: var(--white-gradient1);
+    border: 3px solid var(--ligh-lilla);
+    padding: 20px 20px;
+}
+
+@media screen and (max-width: 330px) {
+    .responsiveSvg{
+        width: 126px;
+        height: 96px;
+    }
+}
+
+
+@media screen and (max-width: 330px) {
+    /* CSS RULES  */
+    .overlayReferrel{
+        padding: 15px 10px;
+    }
+
+}
+
+@media screen and (max-width: 380px) {
+    /* CSS RULES  */
+    .responsiveWidth{
+        width: 100%;
+    }
+    .f-s-label-l{
+        font-size: 0.8rem;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    /* CSS RULES  */
+    .overlayInner{
+        padding: 30px 13px 50px 13px;
+    }
+}

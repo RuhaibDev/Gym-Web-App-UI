@@ -1,0 +1,23 @@
+:root {
+    --hero-blue-bg: linear-gradient(180deg, #8652F9 0%, #2E099B 53.52%, #200D5A 100%),
+        radial-gradient(111.98% 48.59% at 0% 0%, rgba(155, 5, 149, 0.5) 0%, rgba(231, 0, 222, 0) 100%),
+        radial-gradient(99.24% 63.73% at 3.82% 102.23%, rgba(155, 5, 149, 0.2) 0%, rgba(231, 0, 222, 0) 100%);
+}
+
+.hero {
+    background: var(--hero-blue-bg);
+    max-width: 480px;
+    min-height: 100vh;
+    padding: 20px 10%;
+}
+
+.hero img{
+    width: 100%;
+    border-radius: 25px;
+}
+
+@media (max-width: 400px) {
+    .hero{
+        padding: 20px 5%;
+    }
+}

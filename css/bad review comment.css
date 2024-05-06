@@ -1,0 +1,70 @@
+:root {
+    --white-bg: linear-gradient(153.63deg, #FFFFFF 24.08%, #E2E8EE 99.14%);
+    --color-text1: #41227C;
+    --color-label: #B4A9CE;
+    --color-text: #62557F;
+    --color-lilla: #B4A9CE;
+    --color-white: white;
+    --magenta-bulb: #E21B57; 
+}
+
+.hero {
+    min-height: 100vh;
+    background: var(--white-bg);
+    padding-top: 2rem;
+    width: 100%;
+    max-width: 480px;
+}
+
+.emoji {
+    height: 35px;
+}
+
+.top h5 {
+    text-align: center;
+    color: var(--color-text1);
+    font-weight: 600;
+}
+
+.inputContainer{
+    border: 1px solid var(--color-lilla);
+    padding: 20px;
+    margin: 2rem 10%;
+    border-radius: 15px;
+    height: 56vh;
+}
+
+.inputContainer>h4 {
+    color: var(--color-label);
+    font-weight: 600;
+}
+
+.inputContainer>textarea {
+    border: none;
+    color: var(--color-text);
+    background: none;
+    height: 90%;
+    width: 100%;
+    font-weight: 600;
+    line-height: 1.2rem;
+}
+
+.buttonContainer{
+    background-color: var(--color-white);
+    padding: 2rem;
+}
+
+.buttonContainer button{
+    background-color: var(--magenta-bulb);
+    padding: 15px 30px;
+    border-radius: 15px;
+}
+
+@media (max-width: 400px) {
+    .inputContainer{
+        margin: 1rem 5%;
+    }
+    .inputContainer button{
+        padding: 15px 25px;
+    }
+}

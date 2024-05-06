@@ -1,0 +1,119 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+.informazioniPer {
+    background: var(--white-gradient1);
+    max-width: 480px;
+    min-height: 100vh;
+}
+
+.informazioniPerInner {
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-bottom: 50px;
+}
+
+.informazioniInput{
+    border: 1px solid var(--mid-lilla);
+}
+
+.informazioniInputRightDiv{
+    border: 1px solid var(--mid-lilla);
+
+}
+
+.checkbox {
+    height: 1.5rem;
+    width: 1.5rem;
+}
+
+.radios {
+    width: fit-content;
+    padding-top: 1rem;
+    flex-direction: column;
+}
+
+.radiosContainer{
+    padding-left: 1rem;
+}
+
+.checkbox {
+    /* Hide the default checkbox */
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    width: 20px;
+    height: 20px;
+    border: 2px solid #B4A9CE;
+    border-radius: 2px; /* Rounded corners */
+    outline: none; /* Remove outline */
+    cursor: pointer;
+    background: var(--color-white);
+}
+
+/* Custom tick mark */
+.checkbox:checked::before {
+    content: '\2713'; /* Unicode character for tick */
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    line-height: 16px; /* Center vertically */
+    font-size: 15px; /* Size of the tick */
+    color: var(--magenta-bulb);
+}
+
+/* Customize background color when checkbox is checked */
+.checkbox:checked {
+    background-color: var(--color-white); /* Green background color */
+}
+
+
+@media screen and (max-width: 400px) {
+
+    /* CSS rules */
+    .responsiveness{
+        max-width: 90%;
+    }
+    .inputPad{
+        padding: 7px 11px 7px 11px;
+    }
+}
+@media screen and (max-width: 450px) {
+
+    /* CSS rules */
+    .responsiveness{
+        max-width: 90%;
+    }
+    .inputPad{
+        padding: 9px 13px 9px 13px;
+    }
+}
+
+@media screen and (max-width: 420px) {
+
+    /* CSS rules */
+    .inputDivRes{
+        min-width: 90%;
+    }
+}
+
+@media screen and (max-width: 372px) {
+
+    /* CSS rules */
+    input{
+        font-size: 0.8rem;
+    }
+    .f-s-label{
+        font-size: 0.75rem;
+    }
+    .informazioniPerInner {
+        padding-right: 15px;
+        padding-left: 15px;
+        padding-bottom: 50px;
+    }
+}

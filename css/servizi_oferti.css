@@ -1,0 +1,85 @@
+:root {
+    --servizi-bg: linear-gradient(153.63deg, #FFFFFF 24.08%, #E2E8EE 99.14%);
+    --dark-violet: #41227C;
+    --dark-grey: #62557F;
+    --color-lilla: #B4A9CE;
+    --color-white: white;
+    --magenta-bulb: #E21B57;
+    --white-gradient: linear-gradient(153.63deg, #FFFFFF 24.08%, #E2E8EE 99.14%);
+    --ligh-lilla: #F2EFF9;
+    --mid-lilla: #B4A9CE;
+    --tab-bg: linear-gradient(153.63deg, #FFFFFF 24.08%, #E2E8EE 99.14%);
+    --lilla: rgba(134, 82, 249, 1);
+}
+
+.hero {
+    background: var(--servizi-bg);
+    min-height: 100vh;
+    width: 100%;
+    max-width: 480px;
+    padding: 2rem 10%;
+}
+
+.grid1 {
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+}
+
+.whiteBg {
+    background-color: white;
+}
+
+.lillaBg {
+    background-color: var(--lilla);
+}
+
+.container {
+    background: linear-gradient(153.63deg, #FFFFFF 24.08%, #E2E8EE 99.14%);
+    border: 1px solid var(--ligh-lilla);
+    box-shadow: 1px 0px 4px 0px #1E37454D;
+    border-radius: 30px;
+    padding: 1rem;
+}
+
+.checkbox {
+    height: 1.5rem;
+    width: 1.5rem;
+}
+
+.radios {
+    width: fit-content;
+    padding: 1rem;
+    flex-direction: column;
+}
+
+.checkbox {
+    /* Hide the default checkbox */
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    width: 20px;
+    height: 20px;
+    border: 2px solid #B4A9CE;
+    border-radius: 2px; /* Rounded corners */
+    outline: none; /* Remove outline */
+    cursor: pointer;
+    background: var(--color-white);
+}
+
+/* Custom tick mark */
+.checkbox:checked::before {
+    content: '\2713'; /* Unicode character for tick */
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    line-height: 16px; /* Center vertically */
+    font-size: 15px; /* Size of the tick */
+    color: var(--magenta-bulb);
+}
+
+/* Customize background color when checkbox is checked */
+.checkbox:checked {
+    background-color: var(--color-white); /* Green background color */
+}
+

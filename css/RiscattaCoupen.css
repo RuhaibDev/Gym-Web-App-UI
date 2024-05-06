@@ -1,0 +1,42 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+.riscatta {
+    background: var(--white-gradient1);
+    max-width: 480px;
+    min-height: 88vh;
+}
+
+.riscattaInner {
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-bottom: 50px;
+}
+
+.riscattaContent {
+    min-height: 55vh;
+}
+
+/* css rewritten for this file from onboarding css file */
+
+.onboarding1 {
+    min-height: 10vh;
+    padding: 20px 0px;
+}
+
+@media screen and (max-width: 384px) {
+    .riscattaInner {
+        padding-right: 15px;
+        padding-left: 15px;
+        padding-bottom: 50px;
+    }
+}
+@media screen and (max-width: 355px) {
+    .f-s-label-l{
+        font-size: 0.85rem;
+    }
+}

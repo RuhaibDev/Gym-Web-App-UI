@@ -1,0 +1,41 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+.certificazioni {
+    background: var(--white-gradient1);
+    max-width: 480px;
+    min-height: 100vh;
+}
+
+.certificazioniInner {
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-bottom: 50px;
+}
+
+.certificazioniPad {
+    padding: 25px 20px;
+}
+
+@media screen and (max-width: 350px) {
+    p {
+        font-size: 0.9rem;
+    }
+    h5{
+    font-size: 1.0rem;
+    }
+    .lineHeightNormal{
+        line-height: 1.5rem;
+    }
+}
+
+@media screen and (max-width: 370px) {
+    .certificazioniLower{
+        width: 93%;
+    }
+   
+}
